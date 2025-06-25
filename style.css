@@ -1,32 +1,18 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
   background-color: #f8e1e7;
+  font-family: Arial, sans-serif;
 }
+
 h1 {
   color: #d6336c;
 }
-.receita {
-  border: 1px solid #ccc;
-  padding: 15px;
-  margin: 10px;
-  background-color: white;
-  border-radius: 10px;
-  display: inline-block;
-  width: 40%;
-  text-align: left;
+
+/* Caso queira ajustar os cards para terem uma sombra personalizada */
+.card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
-img {
-  max-width: 100%;
-  border-radius: 10px;
+
+/* Se quiser garantir que todas imagens em cards tenham borda arredondada */
+.card-img-top {
+  border-radius: 0.5rem;
 }
-const themes = {
-  light: {
-    background: 'white',
-    text: 'black',
-  },
-  dark: {
-    background: 'black',
-    text: 'white',
-  }
-};
