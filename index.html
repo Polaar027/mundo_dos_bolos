@@ -4,22 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mundo dos Bolos</title>
-  <!-- Bootstrap 5 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
 </head>
 <body>
-
   <div class="container my-5">
     <h1 class="text-center mb-5">Bem-vindo ao Mundo dos Bolos 🍰</h1>
 
-    <div class="row g-4">
-      
-      <div class="col-md-6 col-lg-4">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <!-- Bolo de Chocolate -->
+      <div class="col">
         <div class="card h-100">
-          <img src="chocolate.jpg" class="card-img-top img-fluid" alt="Bolo de Chocolate" />
+          <img src="chocolate.jpg" class="card-img-top" alt="Bolo de Chocolate" />
           <div class="card-body">
             <h2 class="card-title h4">Bolo de Chocolate</h2>
-            <h3 class="h6">Ingredientes:</h3>
+            <h3 class="h5 mt-3">Ingredientes:</h3>
             <ul>
               <li>3 ovos</li>
               <li>2 xícaras de açúcar</li>
@@ -29,7 +31,7 @@
               <li>1 xícara de chocolate em pó</li>
               <li>1 colher (sopa) de fermento em pó</li>
             </ul>
-            <h3 class="h6">Modo de preparo:</h3>
+            <h3 class="h5 mt-3">Modo de preparo:</h3>
             <ol>
               <li>Bata os ovos com o açúcar até obter um creme fofo.</li>
               <li>Acrescente o óleo e o leite morno, misturando bem.</li>
@@ -42,13 +44,13 @@
         </div>
       </div>
 
-      <!-- Repetir para as outras receitas -->
-      <div class="col-md-6 col-lg-4">
+      <!-- Bolo de Cenoura -->
+      <div class="col">
         <div class="card h-100">
-          <img src="cenoura.jpg" class="card-img-top img-fluid" alt="Bolo de Cenoura" />
+          <img src="cenoura.jpg" class="card-img-top" alt="Bolo de Cenoura" />
           <div class="card-body">
             <h2 class="card-title h4">Bolo de Cenoura</h2>
-            <h3 class="h6">Ingredientes:</h3>
+            <h3 class="h5 mt-3">Ingredientes:</h3>
             <ul>
               <li>3 cenouras médias</li>
               <li>4 ovos</li>
@@ -57,7 +59,7 @@
               <li>2 xícaras de farinha de trigo</li>
               <li>1 colher (sopa) de fermento em pó</li>
             </ul>
-            <h3 class="h6">Modo de preparo:</h3>
+            <h3 class="h5 mt-3">Modo de preparo:</h3>
             <ol>
               <li>Bata no liquidificador a cenoura, ovos, óleo e açúcar até formar um creme.</li>
               <li>Despeje a mistura em um recipiente e adicione a farinha de trigo peneirada.</li>
@@ -69,14 +71,13 @@
         </div>
       </div>
 
-      <!-- Continue assim para cada receita... -->
-
-      <div class="col-md-6 col-lg-4">
+      <!-- Bolo Red Velvet -->
+      <div class="col">
         <div class="card h-100">
-          <img src="redvelvet.jpg" class="card-img-top img-fluid" alt="Bolo Red Velvet" />
+          <img src="redvelvet.jpg" class="card-img-top" alt="Bolo Red Velvet" />
           <div class="card-body">
             <h2 class="card-title h4">Bolo Red Velvet</h2>
-            <h3 class="h6">Ingredientes:</h3>
+            <h3 class="h5 mt-3">Ingredientes:</h3>
             <ul>
               <li>2 xícaras de farinha de trigo</li>
               <li>1/4 xícara de cacau em pó</li>
@@ -88,7 +89,7 @@
               <li>2 ovos</li>
               <li>Corante vermelho</li>
             </ul>
-            <h3 class="h6">Modo de preparo:</h3>
+            <h3 class="h5 mt-3">Modo de preparo:</h3>
             <ol>
               <li>Misture os ingredientes secos em um recipiente.</li>
               <li>Em outro recipiente, bata os ovos, leite, óleo e corante vermelho.</li>
@@ -99,15 +100,14 @@
         </div>
       </div>
 
-      <!-- Copie o padrão para as demais receitas, dentro das colunas -->
-
-      <!-- Exemplo para outra receita -->
-      <div class="col-md-6 col-lg-4">
+      <!-- Repita o mesmo padrão para as outras receitas -->
+      
+      <div class="col">
         <div class="card h-100">
-          <img src="maracuja.jpg" class="card-img-top img-fluid" alt="Bolo de Maracujá" />
+          <img src="maracuja.jpg" class="card-img-top" alt="Bolo de Maracujá" />
           <div class="card-body">
             <h2 class="card-title h4">Bolo de Maracujá</h2>
-            <h3 class="h6">Ingredientes:</h3>
+            <h3 class="h5 mt-3">Ingredientes:</h3>
             <ul>
               <li>2 xícaras de farinha de trigo</li>
               <li>1 xícara de açúcar</li>
@@ -116,7 +116,7 @@
               <li>1/2 xícara de suco de maracujá</li>
               <li>1 colher (sopa) de fermento</li>
             </ul>
-            <h3 class="h6">Modo de preparo:</h3>
+            <h3 class="h5 mt-3">Modo de preparo:</h3>
             <ol>
               <li>Bata os ovos com o açúcar até obter um creme fofo.</li>
               <li>Adicione o óleo e o suco de maracujá, misturando bem.</li>
@@ -128,12 +128,146 @@
         </div>
       </div>
 
-      <!-- Continue para os demais bolos, repetindo o padrão -->
+      <!-- Continue colocando as outras receitas da mesma forma -->
 
-    </div> <!-- fim row -->
-  </div> <!-- fim container -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="leiteninho.jpg" class="card-img-top" alt="Bolo de Leite Ninho" />
+          <div class="card-body">
+            <h2 class="card-title h4">Bolo de Leite Ninho</h2>
+            <h3 class="h5 mt-3">Ingredientes:</h3>
+            <ul>
+              <li>3 ovos</li>
+              <li>1 xícara de açúcar</li>
+              <li>1/2 xícara de óleo</li>
+              <li>1 xícara de leite</li>
+              <li>2 xícaras de farinha de trigo</li>
+              <li>1/2 xícara de leite em pó</li>
+              <li>1 colher (sopa) de fermento</li>
+            </ul>
+            <h3 class="h5 mt-3">Modo de preparo:</h3>
+            <ol>
+              <li>Bata os ovos, o açúcar e o óleo.</li>
+              <li>Adicione o leite e o leite em pó, misturando bem.</li>
+              <li>Incorpore a farinha e misture até ficar homogêneo.</li>
+              <li>Finalize com o fermento e asse a 180°C por 40 minutos.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
 
-  <!-- Bootstrap JS e dependências (opcional) -->
+      <!-- Bolo de Amendoim -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="amendoim.jpg" class="card-img-top" alt="Bolo de Amendoim" />
+          <div class="card-body">
+            <h2 class="card-title h4">Bolo de Amendoim</h2>
+            <h3 class="h5 mt-3">Ingredientes:</h3>
+            <ul>
+              <li>2 xícaras de farinha de trigo</li>
+              <li>1 xícara de açúcar</li>
+              <li>1/2 xícara de óleo</li>
+              <li>1/2 xícara de leite</li>
+              <li>1 xícara de amendoim triturado</li>
+              <li>1 colher (sopa) de fermento</li>
+            </ul>
+            <h3 class="h5 mt-3">Modo de preparo:</h3>
+            <ol>
+              <li>Misture todos os ingredientes em uma tigela.</li>
+              <li>Incorpore o fermento por último.</li>
+              <li>Despeje em uma forma untada e asse a 180°C por 40 minutos.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bolo de Prestígio -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="prestigio.jpg" class="card-img-top" alt="Bolo de Prestígio" />
+          <div class="card-body">
+            <h2 class="card-title h4">Bolo de Prestígio</h2>
+            <h3 class="h5 mt-3">Ingredientes:</h3>
+            <ul>
+              <li>2 xícaras de farinha de trigo</li>
+              <li>1 xícara de açúcar</li>
+              <li>1/2 xícara de chocolate em pó</li>
+              <li>3 ovos</li>
+              <li>1 xícara de leite</li>
+              <li>1/2 xícara de óleo</li>
+              <li>1 colher (sopa) de fermento</li>
+              <li>1 xícara de coco ralado</li>
+            </ul>
+            <h3 class="h5 mt-3">Modo de preparo:</h3>
+            <ol>
+              <li>Bata os ovos, o açúcar, o leite e o óleo.</li>
+              <li>Adicione a farinha, o chocolate em pó e misture bem.</li>
+              <li>Incorpore o fermento por último e misture delicadamente.</li>
+              <li>Leve ao forno a 180°C por 40 minutos.</li>
+              <li>Finalize com coco ralado por cima.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bolo de Limão -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="limao.jpg" class="card-img-top" alt="Bolo de Limão" />
+          <div class="card-body">
+            <h2 class="card-title h4">Bolo de Limão</h2>
+            <h3 class="h5 mt-3">Ingredientes:</h3>
+            <ul>
+              <li>2 xícaras de farinha de trigo</li>
+              <li>1 xícara de açúcar</li>
+              <li>1/2 xícara de óleo</li>
+              <li>1/2 xícara de suco de limão</li>
+              <li>3 ovos</li>
+              <li>1 colher (sopa) de fermento</li>
+            </ul>
+            <h3 class="h5 mt-3">Modo de preparo:</h3>
+            <ol>
+              <li>Bata os ovos com o açúcar até ficar cremoso.</li>
+              <li>Adicione o óleo e o suco de limão, misturando bem.</li>
+              <li>Incorpore a farinha e mexa até a massa ficar homogênea.</li>
+              <li>Por último, adicione o fermento e misture delicadamente.</li>
+              <li>Leve ao forno a 180°C por 40 minutos.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bolo de Nozes -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="nozes.jpg" class="card-img-top" alt="Bolo de Nozes" />
+          <div class="card-body">
+            <h2 class="card-title h4">Bolo de Nozes</h2>
+            <h3 class="h5 mt-3">Ingredientes:</h3>
+            <ul>
+              <li>2 xícaras de farinha de trigo</li>
+              <li>1 xícara de açúcar mascavo</li>
+              <li>1/2 xícara de óleo</li>
+              <li>1/2 xícara de leite</li>
+              <li>3 ovos</li>
+              <li>1 colher (sopa) de fermento</li>
+              <li>1 xícara de nozes picadas</li>
+            </ul>
+            <h3 class="h5 mt-3">Modo de preparo:</h3>
+            <ol>
+              <li>Misture os ovos, o açúcar e o óleo.</li>
+              <li>Adicione o leite e misture bem.</li>
+              <li>Acrescente a farinha e mexa até ficar homogêneo.</li>
+              <li>Por último, misture as nozes e o fermento.</li>
+              <li>Asse em forno a 180°C por 40 minutos.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (opcional, se precisar de funcionalidades JS do Bootstrap) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
